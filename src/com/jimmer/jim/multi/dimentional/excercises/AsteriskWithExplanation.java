@@ -1,13 +1,13 @@
 package com.jimmer.jim.multi.dimentional.excercises;
 
 public class AsteriskWithExplanation {
-	//row= 출력하는 줄수;
-	//num= 찍히는 별의 최대 개수;
-	//index= 별이 찍히기 시작하는 지점;
+	//row= 출력하는 줄수 (대칭을 원하면 홀수를 넣으세요, 사용자에게 입력받아도 됨.)
+	//num= 각라인에 찍히는 별의 개수
+	//index= 별이 찍히기 시작하는 지점
 	
 	public void test1() {
 		int row=11;
-		int num=row;
+		int maxNum=row;
 		for(int i=0;i<row;i++) {
 			int index = row-i;
 			for (int j=0;j<index;j++) {				
@@ -22,7 +22,7 @@ public class AsteriskWithExplanation {
 	}
 	public void test2() {
 		int row=11;
-		int num=row;
+		int maxNum=row;
 		for(int i=0;i<row;i++) {
 			for(int j=0;j<=i;j++) {
 				System.out.print("*");				
