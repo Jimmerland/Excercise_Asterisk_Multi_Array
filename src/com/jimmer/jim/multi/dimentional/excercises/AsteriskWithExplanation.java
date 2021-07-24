@@ -31,8 +31,7 @@ public class AsteriskWithExplanation {
 		}
 	}
 	public void test3() {
-		int row=11;
-		
+		int row=11;		
 		boolean bool=true;
 		for(int i=0;i<row;i++) {
 			for(int j=0;j<row;j++) {
@@ -60,8 +59,7 @@ public class AsteriskWithExplanation {
 		//행(row) 5개, 대칭이되는 지점= j좌표값=row-1인 지점
 		//별의 갯수(num) = 2*i+1, 
 		//별의 시작위치(index)= row-i-1
-		//0이상 (index)미만/ index이상 (index+value)미만 /index+value이상 row*2-1이하
-		
+		//0이상 (index)미만/ index이상 (index+value)미만 /index+value이상 row*2-1이하		
 		for (int i=0;i<row ; i++) {
 			for (int j=0;j<row*2-1;j++) {
 				int num=2*i+1;
